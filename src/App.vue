@@ -19,7 +19,13 @@ export default {
   components: {
     FooterComponent,
     NavBar,
-    Home,
-  },
+    Home
+  }
 };
 </script>
+
+<style scoped>
+#app {
+  background-color: #f1f9fa;
+}
+</style>
