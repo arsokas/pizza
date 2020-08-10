@@ -9,7 +9,25 @@ export default new Router({
       path: "/",
       alias: "/home",
       name: "home",
-      component: () => import("./components/Home"),
+      component: () => import("./components/Home/Home"),
+    },
+    {
+      path: "/menu",
+      alias: "/menu",
+      name: "Menu",
+      component: () => import("./components/Menu/Menu"),
+    },
+    {
+      path: "/about-us",
+      alias: "/about-us",
+      name: "AboutUs",
+      component: () => import("./components/AboutUs/AboutUs"),
+    },
+    {
+      path: "/reservations",
+      alias: "/reservations",
+      name: "Reservations",
+      component: () => import("./components/Reservations/Reservations"),
     },
   ],
 });
