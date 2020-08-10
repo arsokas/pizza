@@ -1,6 +1,6 @@
 <template>
   <v-row class="my-10">
-    <v-col align="center" cols="6">
+    <v-col align="center">
       <!-- <h3 class="text-h3 my-10">Opening Hours:</h3> -->
       <v-card max-width="375" class="mx-auto">
         <v-img src="https://www.mrpizza-glostrup.dk/img/contact.jpg" height="200px" dark></v-img>

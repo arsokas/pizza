@@ -29,4 +29,10 @@ export default {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
 }
+
+@media screen and (max-width: 1264px) {
+  .header-text {
+    font-size: 44px;
+  }
+}
 </style>

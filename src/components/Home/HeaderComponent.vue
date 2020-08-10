@@ -1,5 +1,5 @@
 <template>
-  <v-carousel class="header-image" height="1000" hide-delimiter-background :show-arrows="false">
+  <v-carousel class="header-image" hide-delimiter-background :show-arrows="false">
     <v-carousel-item
       class="header-background"
       v-for="(item, i) in items"
@@ -41,6 +41,19 @@ export default {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
 }
+
+@media screen and (max-width: 1264px) {
+  .header-text {
+    font-size: 44px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .header-image {
+    max-height: 700px;
+  }
+}
+
 .header-info-text {
   width: 400px;
   text-align: center;

@@ -31,7 +31,7 @@
         </v-col>
       </v-row>
       <v-col class="we-offer-card">
-        <v-card class="mx-auto my-10 text-center card-shadow" max-width="400">
+        <v-card class="mx-auto my-10 text-center we-offer-card-width" max-width="350">
           <v-img
             class="white--text align-end"
             height="150px"
@@ -52,10 +52,10 @@
             <div class="my-1">Plate of Vrunch Food</div>
             <div class="my-1">Glass of Orange Juice</div>
             <div class="my-1">Desert and Prosecco</div>
-            <v-btn class="ma-2" tile color="green" dark>See Menu</v-btn>
+            <v-btn class="ma-2" tile color="green" dark to="/menu">See Menu</v-btn>
           </v-card-text>
         </v-card>
-        <v-card class="mx-auto my-10 text-center" max-width="400">
+        <v-card class="mx-auto my-10 text-center" max-width="350">
           <v-img
             class="white--text align-end"
             height="150px"
@@ -76,10 +76,10 @@
             <div class="my-1">Vegetarian Pizza</div>
             <div class="my-1">Vegan Pizza</div>
             <div class="my-1">Pizza for Children</div>
-            <v-btn class="ma-2" tile color="green" dark>See Menu</v-btn>
+            <v-btn class="ma-2" tile color="green" dark to="/menu">See Menu</v-btn>
           </v-card-text>
         </v-card>
-        <v-card class="mx-auto my-10 text-center" max-width="400">
+        <v-card class="mx-auto my-10 text-center" max-width="350">
           <v-img
             class="white--text align-end"
             height="150px"
@@ -100,7 +100,7 @@
             <div class="my-1">Steaks from -119 DKK</div>
             <div class="my-1">Pastas from -90 DKK</div>
             <div class="my-1">Italian Deserts from -70 DKK</div>
-            <v-btn class="ma-2" tile color="green" dark>See Menu</v-btn>
+            <v-btn class="ma-2" tile color="green" dark to="/menu">See Menu</v-btn>
           </v-card-text>
         </v-card>
       </v-col>
@@ -137,6 +137,14 @@ export default {
   color: white;
 }
 
+@media screen and (max-width: 1264px) {
+  .text-h1 {
+    font-size: 48px !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+}
+
 .text-h3 {
   font-weight: bold;
   -webkit-text-stroke-width: 1.5px;
@@ -162,4 +170,10 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+/* @media screen and (max-width: 1264px) {
+  .we-offer-card-width {
+    max-width: 200px;
+  }
+} */
 </style>
