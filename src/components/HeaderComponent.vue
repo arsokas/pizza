@@ -1,10 +1,5 @@
 <template>
-  <v-carousel
-    class="header-image"
-    height="1000"
-    hide-delimiter-background
-    :show-arrows="false"
-  >
+  <v-carousel class="header-image" height="1000" hide-delimiter-background :show-arrows="false">
     <v-carousel-item
       class="header-background"
       v-for="(item, i) in items"
@@ -14,8 +9,7 @@
       transition="fade-transition"
     >
       <v-row class="fill-height flex-column" align="center" justify="center">
-        <div class="header-text">True Italian Pizza</div>
-        <!-- <p class="header-info-text">Experience Napolitan Pizza around the world</p> -->
+        <div class="header-text" align="center">True Italian Pizza</div>
       </v-row>
     </v-carousel-item>
   </v-carousel>
@@ -28,15 +22,15 @@ export default {
     return {
       items: [
         {
-          src: "https://wallpaperaccess.com/full/424487.jpg",
+          src: "https://wallpaperaccess.com/full/424487.jpg"
         },
         {
           src:
-            "https://hdwallpaperim.com/wp-content/uploads/2017/09/17/60012-food-pizza-cheese.jpg",
-        },
-      ],
+            "https://hdwallpaperim.com/wp-content/uploads/2017/09/17/60012-food-pizza-cheese.jpg"
+        }
+      ]
     };
-  },
+  }
 };
 </script>
 
