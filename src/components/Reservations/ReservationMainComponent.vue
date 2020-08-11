@@ -1,65 +1,5 @@
 <template>
   <v-row class="my-10">
-    <v-col align="center">
-      <!-- <h3 class="text-h3 my-10">Opening Hours:</h3> -->
-      <v-card max-width="375" class="mx-auto">
-        <v-img src="https://www.mrpizza-glostrup.dk/img/contact.jpg" height="200px" dark></v-img>
-
-        <v-list>
-          <v-list-item>
-            <v-list-item-content>
-              <v-list-item-title class="text-h5">Opening Hours:</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-          <v-list-item>
-            <v-list-item-content>
-              <v-list-item-title>Monday 11:00 - 22:00*</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-          <v-divider></v-divider>
-          <v-list-item>
-            <v-list-item-content>
-              <v-list-item-title>Tuesday CLOSED</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-          <v-divider></v-divider>
-          <v-list-item>
-            <v-list-item-content>
-              <v-list-item-title>Wednesday 11:00 - 22:00*</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-          <v-divider></v-divider>
-          <v-list-item>
-            <v-list-item-content>
-              <v-list-item-title>Thursday 11:00 - 22:00*</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-          <v-divider></v-divider>
-          <v-list-item>
-            <v-list-item-content>
-              <v-list-item-title>Friday 11:00 - 22:00*</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-          <v-divider></v-divider>
-          <v-list-item>
-            <v-list-item-content>
-              <v-list-item-title>Saturday 11:00 - 22:00</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-          <v-divider></v-divider>
-          <v-list-item>
-            <v-list-item-content>
-              <v-list-item-title>Sunday 13:00 - 21:00</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-          <v-list-item>
-            <v-list-item-content>
-              <v-list-item-subtitle>*Kitchen Closes at 21:00</v-list-item-subtitle>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list>
-      </v-card>
-    </v-col>
     <v-col>
       <v-card max-width="375" class="mx-auto">
         <v-img
@@ -71,7 +11,7 @@
         <v-list two-line>
           <v-list-item align="center">
             <v-list-item-content>
-              <v-list-item-title class="text-h5">Contact Us:</v-list-item-title>
+              <v-list-item-title class="text-h5">Make a Reservation:</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
           <v-list-item>
@@ -136,7 +76,7 @@
 
 <script>
 export default {
-  name: "About-Us-OpeningHours"
+  name: "Reservations-MainComponent"
 };
 </script>
 
