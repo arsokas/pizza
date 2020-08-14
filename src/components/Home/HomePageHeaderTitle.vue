@@ -21,15 +21,6 @@
     </v-row>
 
     <v-row class="card-shadow my-10 flex-column">
-      <v-row>
-        <v-col align="center" justify="center">
-          <h3 class="text-h3 mt-10">
-            <span>We&nbsp;</span>
-            <span>Offer&nbsp;</span>
-            <span>You:</span>
-          </h3>
-        </v-col>
-      </v-row>
       <v-col class="we-offer-card">
         <v-card class="mx-auto my-10 text-center we-offer-card-width" max-width="350">
           <v-img
@@ -157,12 +148,6 @@ export default {
   font-size: 28px;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
-}
-
-.card-shadow {
-  -webkit-box-shadow: 0px 0px 103px -37px rgba(0, 0, 0, 0.51);
-  -moz-box-shadow: 0px 0px 103px -37px rgba(0, 0, 0, 0.51);
-  box-shadow: 0px 0px 103px -37px rgba(0, 0, 0, 0.51);
 }
 
 .we-offer-card {
