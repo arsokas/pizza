@@ -32,4 +32,8 @@ export default new Router({
   ],
 });
 
-Router.replace({ path: "/pizza/", redirect: "/pizza/home" });
+Router.replace({
+  path: "*",
+  redirect: "/",
+  component: () => import("./components/Home/Home"),
+});
