@@ -42,20 +42,20 @@ export default {
       firstItemDescription:
         "Click on menu and select pizza to see ingredients and options.",
       firstImage:
-        "https://vignettepizzeria.com/wp-content/uploads/pizza-2978377_1920-1.jpg",
+        "https://lh3.googleusercontent.com/proxy/kpBqpLSYAYOkUvbJ8zftZ-JmE5dAZ6YbeAnM5bSvsRMo8AVQnsRjwMLmRrApqDiyW1ArXB3N5B8z4R5X-Jpfv8RijtXhwgmCwCJo2ggRzbhdWNyyUy0akp0D",
       pizzas: [
         {
           name: "Margherita5",
           price: 159 + " DKK",
           src:
-            "https://www.recipetineats.com/wp-content/uploads/2014/06/Pasta1.jpg",
+            "https://lh3.googleusercontent.com/proxy/yCRvsavLXDjFVVCK4ARLwM5zMOfS5P0dOJj77Y8UtZslhB-GAfa4ALbeEwvNLXeF5m-ZYSPtHcpSob0ctmIUk4rqa1DEw8NZOr-BRG0c1jPWJP28o0FKSVA_uMdSGbru-0qlbN8x",
           ingredients: "Cheese and other delicious ingredients"
         },
         {
           name: "Margherita6",
           price: 159 + " DKK",
           src:
-            "https://www.fifteenspatulas.com/wp-content/uploads/2012/11/Tiramisu-Fifteen-Spatulas-1-640x424.jpg",
+            "https://lh3.googleusercontent.com/proxy/zYoyD8i_qqiMYaqtNrBjs7s4Oj2kcdtpfpWlbmAJCuRRIAFni9Sb_5BqJ_WTNGxXoxx9V-sSa9_eI5kgYT41M2lUK8TB1JXG7azJ4HimBojKMzrMauPdDN24IdC-5wy2yaNfN1fFHDhtduw",
           ingredients: "Cheese and other delicious ingredients and more"
         },
         {
@@ -110,7 +110,8 @@ export default {
 }
 
 .image-with-background {
-  background-color: lightslategrey;
+  background-image: url("https://previews.123rf.com/images/primopiano/primopiano1705/primopiano170500417/77631122-grunge-surface-rustic-wooden-table-top-view-wood-texture-background-surface-with-old-natural-pattern.jpg");
+  background-repeat: repeat;
 }
 
 .menu-data-table {

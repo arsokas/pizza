@@ -110,7 +110,8 @@ export default {
 }
 
 .image-with-background {
-  background-color: lightslategrey;
+  background-image: url("https://previews.123rf.com/images/primopiano/primopiano1705/primopiano170500417/77631122-grunge-surface-rustic-wooden-table-top-view-wood-texture-background-surface-with-old-natural-pattern.jpg");
+  background-repeat: repeat;
 }
 
 .menu-data-table {
