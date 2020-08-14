@@ -1,4 +1,4 @@
 module.exports = {
-  publicPath: "/pizza/",
+  publicPath: "/",
   transpileDependencies: ["vuetify"],
 };
