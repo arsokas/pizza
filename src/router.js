@@ -32,4 +32,4 @@ export default new Router({
   ],
 });
 
-router.replace({ path: "*", redirect: "/home" });
+Router.replace({ path: "/pizza/", redirect: "/pizza/home" });
