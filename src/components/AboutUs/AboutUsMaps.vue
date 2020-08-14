@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  name: "About-Us-Maps"
+  name: "About-Us-Maps",
 };
 </script>
 
@@ -32,7 +32,7 @@ export default {
 .text-h3 {
   font-weight: bold;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.7);
   color: white;
 }
 </style>

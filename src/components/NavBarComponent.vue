@@ -1,8 +1,11 @@
 <template>
   <v-container fluid class="pa-0">
     <v-toolbar height="100">
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-divider class="mx-4" vertical></v-divider>
+      <v-app-bar-nav-icon
+        @click.stop="drawer = !drawer"
+        class="hidden-md-and-up"
+      ></v-app-bar-nav-icon>
+      <v-divider class="mx-4 hidden-md-and-up" vertical></v-divider>
       <div class="d-flex align-center">
         <router-link to="/">
           <v-img
@@ -36,7 +39,7 @@
 
         <v-btn text class="disable-events">
           <v-icon>fas fa-phone</v-icon>
-          <span>45 45 45 45</span>
+          <span class="pl-2">45 45 45 45</span>
         </v-btn>
       </v-toolbar-items>
     </v-toolbar>
@@ -92,15 +95,14 @@
   </v-container>
 </template>
 
-
 <script>
 export default {
   name: "NavbarComponent",
   data() {
     return {
-      drawer: null
+      drawer: null,
     };
-  }
+  },
 };
 </script>
 
@@ -113,5 +115,3 @@ export default {
   display: grid;
 }
 </style>
-
-

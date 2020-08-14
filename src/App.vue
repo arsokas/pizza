@@ -17,13 +17,13 @@ export default {
 
   components: {
     FooterComponent,
-    NavBar
-  }
+    NavBar,
+  },
 };
 </script>
 
 <style scoped>
-#app {
+/* #app {
   background-color: #f1f9fa;
-}
+} */
 </style>
