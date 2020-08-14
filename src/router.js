@@ -31,9 +31,3 @@ export default new Router({
     },
   ],
 });
-
-Router.replace({
-  path: "*",
-  redirect: "/",
-  component: () => import("./components/Home/Home"),
-});
