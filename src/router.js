@@ -12,6 +12,10 @@ export default new Router({
       component: () => import("./components/Home/Home"),
     },
     {
+      path: "/pizza/",
+      component: () => import("./components/Home/Home"),
+    },
+    {
       path: "/menu",
       alias: "/menu",
       name: "Menu",
